@@ -20,7 +20,7 @@
 ```
 
 ```
-两种风格
+## 两种风格
 1、暗黑科技风 references/style-dark.md
 黑到发光的那种黑。#0a0a0a 底色，#c8ff00 点缀。
 像 Vercel 的首页，像 Linear 的界面，像凌晨两点还在 vibe coding 的人的审美，适合赛博朋克。
@@ -50,7 +50,7 @@ HTML + CSS + 少量 JavaScript
 ```
 
 ## Demo：
-https://github.com/user-attachments/assets/6412f904-699e-455f-b69a-2340e4069b1a
+https://github.com/user-attachments/assets/5207d37f-ac02-4b43-9571-53495d8e4cf8
 
 
 
