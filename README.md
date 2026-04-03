@@ -1,2 +1,73 @@
-# personal-homepage-design
-为 Claude 打造的苹果风格个人主页生成技能，一键产出符合苹果设计美学的、可直接部署的个人主页，支持科技感黑灰 / 简约白底双风格，像素级还原顶级设计质感。
+# 🌟 设计感个人主页生成技能 (Personal Homepage Skill)
+> 为 Claude 打造的顶级设计工具，一键生成惊艳的个人主页/作品集网站，求职和相亲利器
+
+[![Claude 兼容](https://img.shields.io/badge/Claude-Compatible-0071E3?style=flat-square&logo=anthropic&logoColor=white)](https://www.anthropic.com/claude)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+[![Apple Design](https://img.shields.io/badge/Apple-Inspired-000000?style=flat-square&logo=apple&logoColor=white)](https://developer.apple.com/design/)
+
+---
+
+## ✨ 项目简介
+生成的主页包含：
+有磁性的按钮（字面意思，鼠标靠近会被吸过去）
+自定义光标，带一个慵懒跟随的圆环
+鼠标划过名字，每个字母会蹦起来打个招呼
+背景里漂浮的粒子网络，感知鼠标位置发光
+项目卡片，hover 时会朝你倾斜
+按钮点击，涟漪从你的指尖扩散
+滚动时内容优雅淡入，不是那种闪一下的那种
+
+两种风格
+暗黑科技风 references/style-dark.md
+黑到发光的那种黑。#0a0a0a 底色，#c8ff00 点缀。
+像 Vercel 的首页，像 Linear 的界面，像凌晨两点还在 coding 的人的审美。
+适合：工程师、开发者、搞技术的人。
+清雅白底风 references/style-white.md
+白得让人误以为你在 Stripe 上班的那种白。
+衬线展示字体配无衬线正文，大方留白，Apple 产品页质感。
+适合：设计师、作家、创意人、任何不想把自己网站搞得像黑客工具的人。
+
+## 技术栈
+HTML + CSS + 少量 JavaScript
++ 大量白空间
++ 两套 Apple 配色
++ 一个 Google Fonts 请求（对不起）
++ IntersectionObserver（现代浏览器都有）
++ requestAnimationFrame（也都有）
++ 零框架、零构建工具、零 node_modules
+单文件交付。丢到任何静态托管（GitHub Pages、Vercel、Cloudflare Pages）就跑起来了。
+
+## 文件结构
+personal-homepage/
+├── SKILL.md                        ← 主流程（从这里开始）
+├── README.md                       ← 你现在在读这个
+├── references/
+│   ├── style-dark.md               ← 暗黑科技风：配色、字体、组件样式
+│   └── style-white.md              ← 清雅白底风：配色、字体、组件样式
+├── assets/
+│   ├── layout-reference.md         ← 各 Section 布局模板与间距参考
+│   └── component-patterns.md       ← 可直接复用的 HTML/CSS 代码片段
+└── scripts/
+    └── interactions.js             ← 完整交互系统，含注释版粘贴块
+
+## 怎么用
+直接告诉 Claude 你要做个人主页就行：
+
+"帮我做个个人主页"
+"做个作品集网站，我是 UI 设计师"
+"我需要一个暗色风格的开发者主页"
+"帮我搭个个人品牌页面"
+
+它会问你名字、职位、几个项目、社交链接，然后生成一个 index.html。
+
+## 设计参照
+
+Apple — 字体节奏与留白哲学
+Linear — 暗色界面的精髓
+Stripe — 白底排版的标杆
+Vercel — 技术人主页该有的样子
+
+## Demo：
+https://github.com/user-attachments/assets/fe468817-e2bf-4dfd-ab98-c898361cb596
+
