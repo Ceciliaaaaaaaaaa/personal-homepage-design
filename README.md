@@ -19,11 +19,11 @@
 滚动时内容优雅淡入，不是那种闪一下的那种
 
 两种风格
-暗黑科技风 references/style-dark.md
+1、暗黑科技风 references/style-dark.md
 黑到发光的那种黑。#0a0a0a 底色，#c8ff00 点缀。
 像 Vercel 的首页，像 Linear 的界面，像凌晨两点还在 coding 的人的审美。
 适合：工程师、开发者、搞技术的人。
-清雅白底风 references/style-white.md
+2、清雅白底风 references/style-white.md
 白得让人误以为你在 Stripe 上班的那种白。
 衬线展示字体配无衬线正文，大方留白，Apple 产品页质感。
 适合：设计师、作家、创意人、任何不想把自己网站搞得像黑客工具的人。
