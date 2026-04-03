@@ -38,19 +38,6 @@ HTML + CSS + 少量 JavaScript
 + 零框架、零构建工具、零 node_modules
 单文件交付。丢到任何静态托管（GitHub Pages、Vercel、Cloudflare Pages）就跑起来了。
 
-## 文件结构
-personal-homepage/
-├── SKILL.md                        ← 主流程（从这里开始）
-├── README.md                       ← 你现在在读这个
-├── references/
-│   ├── style-dark.md               ← 暗黑科技风：配色、字体、组件样式
-│   └── style-white.md              ← 清雅白底风：配色、字体、组件样式
-├── assets/
-│   ├── layout-reference.md         ← 各 Section 布局模板与间距参考
-│   └── component-patterns.md       ← 可直接复用的 HTML/CSS 代码片段
-└── scripts/
-    └── interactions.js             ← 完整交互系统，含注释版粘贴块
-
 ## 怎么用
 直接告诉 Claude 你要做个人主页就行：
 
@@ -70,4 +57,19 @@ Vercel — 技术人主页该有的样子
 
 ## Demo：
 https://github.com/user-attachments/assets/fe468817-e2bf-4dfd-ab98-c898361cb596
+
+
+## 📁 文件结构
+
+```text
+personal-homepage/
+├── SKILL.md              # 主技能文件，包含5步工作流程与触发规则
+├── README.md             # 项目说明文档（本文件）
+├── references/           # 风格设计指南目录
+│   ├── style-dark.md     # 科技感黑灰风格指南（颜色、字体、组件）
+│   └── style-white.md    # 苹果白底风格指南（颜色、字体、组件）
+├── assets/               # 资源与模板目录
+│   ├── layout-reference.md  # 各Section布局模版和间距参考
+│   └── component-patterns.md # 可复用的HTML/CSS代码片段
+└── scripts/              # 交互脚本
 
