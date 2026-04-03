@@ -9,7 +9,7 @@
 ---
 
 ## ✨ 项目简介
-生成的主页包含：
+```生成的主页包含：
 有磁性的按钮（字面意思，鼠标靠近会被吸过去）
 自定义光标，带一个慵懒跟随的圆环
 鼠标划过名字，每个字母会蹦起来打个招呼
@@ -17,16 +17,16 @@
 项目卡片，hover 时会朝你倾斜
 按钮点击，涟漪从你的指尖扩散
 滚动时内容优雅淡入，不是那种闪一下的那种
+```
 
+```
 两种风格
 1、暗黑科技风 references/style-dark.md
 黑到发光的那种黑。#0a0a0a 底色，#c8ff00 点缀。
-像 Vercel 的首页，像 Linear 的界面，像凌晨两点还在 coding 的人的审美。
-适合：工程师、开发者、搞技术的人。
+像 Vercel 的首页，像 Linear 的界面，像凌晨两点还在 vibe coding 的人的审美，适合赛博朋克。
 2、清雅白底风 references/style-white.md
 白得让人误以为你在 Stripe 上班的那种白。
-衬线展示字体配无衬线正文，大方留白，Apple 产品页质感。
-适合：设计师、作家、创意人、任何不想把自己网站搞得像黑客工具的人。
+人生需要留白，适合农夫山泉有点甜的人。
 
 ## 技术栈
 HTML + CSS + 少量 JavaScript
@@ -47,16 +47,11 @@ HTML + CSS + 少量 JavaScript
 "帮我搭个个人品牌页面"
 
 它会问你名字、职位、几个项目、社交链接，然后生成一个 index.html。
-
-## 设计参照
-
-Apple — 字体节奏与留白哲学
-Linear — 暗色界面的精髓
-Stripe — 白底排版的标杆
-Vercel — 技术人主页该有的样子
+```
 
 ## Demo：
-https://github.com/user-attachments/assets/fe468817-e2bf-4dfd-ab98-c898361cb596
+https://github.com/user-attachments/assets/6412f904-699e-455f-b69a-2340e4069b1a
+
 
 
 ## 📁 文件结构
